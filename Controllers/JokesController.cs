@@ -74,7 +74,7 @@ namespace JokesWebApp.Controllers
             }
             return View(joke);
         }
-
+        [Authorize]
         // GET: Jokes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

@@ -14,5 +14,13 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    background-color: antiquewhite;
+}
+.home-page{
+    padding : 50px;
+    align-content : space-between;
 }
